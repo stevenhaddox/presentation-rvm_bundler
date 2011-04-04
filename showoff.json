@@ -1,0 +1,7 @@
+{ "name": "RVM::FW", 
+  "sections": [
+    { "section" : "01_rvm" },
+    { "section" : "02_rvm_fw" },
+    { "section" : "03_demo" }
+  ]
+}

@@ -1,7 +1,8 @@
 { "name": "RVM::FW", 
   "sections": [
-    { "section" : "01_rvm" },
-    { "section" : "02_rvm_fw" },
-    { "section" : "03_demo" }
+    { "section" : "01_intro" },
+    { "section" : "02_rvm_fw_server" },
+    { "section" : "03_client" },
+    { "section" : "04_demo"}
   ]
 }

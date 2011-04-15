@@ -1,5 +1,5 @@
 !SLIDE
-# RVM, Bundler, &amp; Friends #
+## RVM, Bundler, &amp; Friends ##
 
 <dl>
   <dt>Presented by:</dt>

@@ -49,3 +49,8 @@ If you want to use RVM in production without sudo you'll want your own packages,
     $ rvm package install ree_dependencies
     $ rvm install ree --with-readline-dir=$rvm_usr_path --with-iconv-dir=$rvm_usr_path --with-zlib-dir=$rvm_usr_path --with-openssl-dir=$rvm_usr_path
 
+!SLIDE code transition=uncover
+## Gemsets ##
+
+
+

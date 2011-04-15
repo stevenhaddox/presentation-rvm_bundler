@@ -38,6 +38,11 @@ Update your .bash\_profile to load RVM:
     $ rvm install macruby
     $ rvm install rbx
 
+<div class="footer">
+  Facilitated by: Booz, Allen, Hamilton
+</div>
+
+
 !SLIDE code transition=uncover
 ## Installing Packages ##
 
@@ -49,8 +54,24 @@ If you want to use RVM in production without sudo you'll want your own packages,
     $ rvm package install ree_dependencies
     $ rvm install ree --with-readline-dir=$rvm_usr_path --with-iconv-dir=$rvm_usr_path --with-zlib-dir=$rvm_usr_path --with-openssl-dir=$rvm_usr_path
 
-!SLIDE code transition=uncover
+<div class="footer">
+  Facilitated by: Booz, Allen, Hamilton
+</div>
+
+
+!SLIDE smbullets incremental transition=uncover
 ## Gemsets ##
 
+  * RVM provides you with "gemsets" which allow you to:
+  * Install gems on a per-project basis avoiding conflicts
+  * Migrate / test different Rubies easily
 
+!SLIDE code transition=uncover
+## Using Gemsets ##
+
+    @@@sh
+    # Create a gemset
+    $ rvm gemset create mygemset
+    # Use the gemset
+    $ rvm gemset use mygemset
 

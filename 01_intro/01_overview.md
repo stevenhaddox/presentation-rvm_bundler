@@ -1,25 +1,28 @@
-!SLIDE smbullets transition=zoom
-### RVM is Ruby enVironment (version) Manager ###
+!SLIDE
+# RVM, Bundler, &amp; Friends #
 
-  * You can install it in several ways:
-  * Simple copy &amp; paste bash command
-  * As a Ruby gem
-  * From Git source
+<dl>
+  <dt>Presented by:</dt>
+    <dd><a href="http://stevenhaddox.com">Steven Haddox</a></dd>
+  <dt>Company:</dt>
+    <dd><a href="http://blackoakweb.com">Black Oak Technologies, Inc.</a></dd>
+  <dt>Blog:</dt>
+    <dd><a href="http://blog.stevenhaddox.com">http://blog.stevenhaddox.com</a></dd>
+  <dt>Twitter:</dt>
+    <dd><a href="http://twitter.com/stevenhaddox">http://twitter.com/stevenhaddox</a></dd>
+</dl>
 
-!SLIDE code transition=uncover
-## Installing RVM ##
+<div class="footer">
+  Facilitated by: Booz, Allen, Hamilton
+</div>
 
-    @@@sh
-    $ bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
+!SLIDE smbullets incremental transition=zoom  
+## Overview ##
 
-Update your .bash\_profile to load RVM:
+  * What is RVM and why do I care?
+  * What is Bundler?
+  * How can they help me get started with Ruby &amp; Rails? 
 
-    @@@sh
-    # RVM
-    if [[ -s /Users/steven/.rvm/scripts/rvm ]] ; then
-      source /Users/steven/.rvm/scripts/rvm ;
-    fi
-  
 <div class="footer">
   Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
 </div>

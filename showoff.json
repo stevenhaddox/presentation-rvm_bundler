@@ -1,8 +1,8 @@
-{ "name": "RVM::FW", 
+{ "name": "RVM, Bundler, & Friends", 
   "sections": [
     { "section" : "01_intro" },
-    { "section" : "02_rvm_fw_server" },
-    { "section" : "03_client" },
-    { "section" : "04_demo"}
+    { "section" : "02_rvm" },
+    { "section" : "03_bundler" },
+    { "section" : "04_demos"}
   ]
 }

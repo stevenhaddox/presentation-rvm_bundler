@@ -1,6 +1,5 @@
 !SLIDE
-# RVM::FW #
-## Liberating Corporate Rubies ##
+# RVM, Bundler, &amp; Friends #
 
 <dl>
   <dt>Presented by:</dt>
@@ -18,27 +17,12 @@
 </div>
 
 !SLIDE smbullets incremental transition=zoom  
-## RVM::FW ##
+## Overview ##
 
-  * Who works in a corporate or limited environment?
-  * Do you want to use RVM but can't due to firewalls?
-  * Do you need to setup / use Ruby on servers that don't have sudo access?
-  * Do you want to use RVM during presentations but don't want to do a "live demo?"
-  * If any / all of the above apply [RVM::FW](https://github.com/stevenhaddox/rvm_fw) is for you!
+  * What is RVM and why do I care?
+  * What is Bundler?
+  * How can they help me get started with Ruby &amp; Rails? 
 
 <div class="footer">
   Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
 </div>
-
-!SLIDE bullets incremental transition=uncover
-## Moving Parts ##
-
-  * There are only a few steps to use RVM::FW
-  * Downloading the Rubies & Packages RVM::FW serves
-  * Deploying the RVM::FW Sinatra application
-  * Configuring RVM to point to the custom RVM::FW config file
-
-<div class="footer">
-  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
-</div>
-

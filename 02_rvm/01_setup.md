@@ -1,14 +1,24 @@
 !SLIDE smbullets transition=zoom
-## RVM::FW Sinatra Application ##
+### RVM is Ruby enVironment (version) Manager ###
 
-Setup is easy, simple Sinatra application
+  * You can install it in several ways:
+  * Simple copy &amp; paste bash command
+  * As a Ruby gem
+  * From Git source
 
-First: Download Rubies &amp; Packages with:  
+!SLIDE code transition=uncover
+## Installing RVM ##
 
-    @@@Ruby
-    $ rake boot:strap
+    @@@sh
+    $ bash < <(curl -s https://rvm.beginrescueend.com/install/rvm)
 
-Second: Copy your entire setup and deploy to an internal server.  The rest is configured for you automatically.
+Update your .bash\_profile to load RVM:
+
+    @@@sh
+    # RVM
+    if [[ -s /Users/steven/.rvm/scripts/rvm ]] ; then
+      source /Users/steven/.rvm/scripts/rvm ;
+    fi
   
 <div class="footer">
   Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>

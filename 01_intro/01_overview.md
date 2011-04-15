@@ -21,7 +21,7 @@
 ## RVM::FW ##
 
   * Who works in a corporate or limited environment?
-  * Do you want to use RVM in your corporate environment but can't due to firewalls?
+  * Do you want to use RVM but can't due to firewalls?
   * Do you need to setup / use Ruby on servers that don't have sudo access?
   * Do you want to use RVM during presentations but don't want to do a "live demo?"
   * If any / all of the above apply [RVM::FW](https://github.com/stevenhaddox/rvm_fw) is for you!

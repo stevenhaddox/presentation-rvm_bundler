@@ -1,7 +1,12 @@
 !SLIDE smbullets transition=zoom
 ## RVM::FW Client Configuration##
 
-Pointing RVM to use RVM::FW is the easiest part:
+Installing RVM if it isn't installed yet:
+
+    @@@sh
+    $ bash < <( curl http://<your-server-url>:<port>/releases/rvm-install-latest )
+
+Configure RVM to use RVM::FW's Rubies:
 
     @@@sh
     $ wget http://<your-server-url>:<port>/db -O ~/.rvm/config/user

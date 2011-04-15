@@ -1,4 +1,4 @@
-!SLIDE smbullets transition=uncover
+!SLIDE smbullets transition=zoom
 ## DEMO ##
 
 <div class="footer">

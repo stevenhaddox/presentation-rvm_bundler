@@ -3,6 +3,7 @@
     { "section" : "01_intro" },
     { "section" : "02_rvm" },
     { "section" : "03_bundler" },
-    { "section" : "04_demos"}
+    { "section" : "04_capistrano" },
+    { "section" : "05_demos"}
   ]
 }

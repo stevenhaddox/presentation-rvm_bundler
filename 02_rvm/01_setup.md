@@ -39,9 +39,8 @@ Update your .bash\_profile to load RVM:
     $ rvm install rbx
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton
+  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
 </div>
-
 
 !SLIDE code transition=uncover
 ## Installing Packages ##
@@ -55,9 +54,8 @@ If you want to use RVM in production without sudo you'll want your own packages,
     $ rvm install ree --with-readline-dir=$rvm_usr_path --with-iconv-dir=$rvm_usr_path --with-zlib-dir=$rvm_usr_path --with-openssl-dir=$rvm_usr_path
 
 <div class="footer">
-  Facilitated by: Booz, Allen, Hamilton
+  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
 </div>
-
 
 !SLIDE smbullets incremental transition=uncover
 ## Gemsets ##
@@ -65,6 +63,10 @@ If you want to use RVM in production without sudo you'll want your own packages,
   * RVM provides you with "gemsets" which allow you to:
   * Install gems on a per-project basis avoiding conflicts
   * Migrate / test different Rubies easily
+
+<div class="footer">
+  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+</div>
 
 !SLIDE code transition=uncover
 ## Using Gemsets ##
@@ -75,3 +77,6 @@ If you want to use RVM in production without sudo you'll want your own packages,
     # Use the gemset
     $ rvm gemset use mygemset
 
+<div class="footer">
+  Facilitated by: Booz, Allen, Hamilton | Presented by: <a href="http://twitter.com/stevenhaddox">@stevenhaddox</a>
+</div>

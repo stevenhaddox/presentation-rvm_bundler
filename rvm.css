@@ -45,9 +45,7 @@ blockquote {
 
 .footer { 
   position: absolute;
-  bottom: 20px;
-  height: 2em;
-  line-height: 15px;
+  bottom: 0;
   font-size: 12px;
   text-align: center;
   width: 100%;

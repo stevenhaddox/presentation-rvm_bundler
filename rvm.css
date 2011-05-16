@@ -45,12 +45,14 @@ blockquote {
 
 .footer { 
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   height: 2em;
   line-height: 15px;
   font-size: 12px;
   text-align: center;
   width: 100%;
+  padding: 0;
+  margin: 0 0 5px 0;
 }
 
 dl { margin-top: 1.5em; }
